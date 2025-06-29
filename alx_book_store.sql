@@ -24,7 +24,6 @@ CREATE TABLE Customers (
     customer_name VARCHAR(215) NOT NULL,
     email VARCHAR(215) UNIQUE NOT NULL,
     address TEXT
-);
 
 -- Create Orders table
 CREATE TABLE Orders (
